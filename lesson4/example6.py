@@ -1,14 +1,11 @@
-n = int(input("Count of number:"))
-arr=[]
-for i in range(n):
-    arr.append(int(input("number:")))
-find = int(input("find:"))
-#code
-k=0
-for i in range(n):
-    if arr[i]==find:
-        k=1
-if k==1:
-    print("YES")
-else:
-    print("NO")
+4
+1
+3
+4
+6
+30
+Answer:6
+(30-1)=29
+(30-3)=27
+(30-4)=26
+(30-6)=24
