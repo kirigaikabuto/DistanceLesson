@@ -6,14 +6,17 @@ arr=[
 num = int(input())
 x = 0
 y = 0
+k = 0
 for i in range(len(arr)):
     temparr = arr[i]
     for j in range(len(temparr)):
         if temparr[j]==num:
             x = i
             y = j
-print(x,y)
-"Not found"
-
+            k = 1
+if k == 1:
+    print(x,y)
+else:
+    print("Not found")
 
 
