@@ -5,12 +5,11 @@ arr=[
     [4,5,6,4],
 ]
 n = len(arr)
-equal=n-1
 sumi=0
 for i in range(n):
     m = len(arr[i])
     for j in range(m):
-        if i+j==equal:
+        if i+j+1==n:
             sumi=sumi+arr[i][j]
 print(sumi)
 
