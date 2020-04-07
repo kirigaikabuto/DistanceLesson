@@ -9,6 +9,12 @@ for i in range(n):
         rnum = random.randint(0,20)
         temp.append(rnum)
     arr.append(temp)
+sums=[]
+for i in range(n):
+    sumi=0
+    for j in range(m):
+        sumi = sumi +arr[i][j]
+    sums.append(sumi)
 for i in range(n):
     print(arr[i])
-    
+print(sums)
