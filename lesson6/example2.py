@@ -14,6 +14,7 @@ for i in range(n):
     for j in range(m):
         if arr[i][j]==num:
             x,y=i,j
+
 if x!=-1 and y!=-1:
     if x+y+1<n:
         print("TOP TRIANGLE")
@@ -21,6 +22,7 @@ if x!=-1 and y!=-1:
         print("IN THE MIDDLE")
     else:
         print("BOTTOM TRIANGLE")
- 
+else:
+    print("ERROR")
 
         
