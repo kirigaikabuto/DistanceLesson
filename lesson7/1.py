@@ -7,7 +7,7 @@ arr=[-2,45,0,11,-9]
 #             arr[i],arr[j]=arr[j],arr[i]
 # print(arr)
 
-
+#n^2
 for i in range(len(arr)):
     for j in range(0, len(arr) - i - 1):
         if arr[j] > arr[j + 1]:
