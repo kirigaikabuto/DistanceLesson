@@ -1,8 +1,7 @@
-print_arr(array)
-get_max(array)
-get_min(array)
-get_avg(array)
+def procedure_ex(message):
+    print(message)
+    
+def start(proce):
+    proce("hello")
 
-
-a=[] рандомный массив
-print_arr(a)
+start(procedure_ex)
