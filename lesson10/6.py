@@ -39,5 +39,5 @@ def getPeopleByDepartmentId(data,department_id):
         
 # print_data(peoples)
 # avg = getAverageBalance(peoples)
-newpeople = getPeopleByDepartmentId(data=peoples,department_id=1)
+newpeople = getPeopleByDepartmentId(data=peoples,department_id=0)
 print_data(newpeople)
