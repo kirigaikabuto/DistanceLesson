@@ -20,7 +20,7 @@ peoples=[
 ]
 def print_data(arr):
     for i in arr:
-        st="Name:{},Balance:{},Age:{}".format(i['name'],i['balance'],i['age'])
+        st="Name:{},Balance:{},Age:{},DepartmentId:{}".format(i['name'],i['balance'],i['age'],i['department_id'])
         print(st)
 
 def getAverageBalance(arr):
@@ -30,6 +30,14 @@ def getAverageBalance(arr):
         sumi=sumi+i['balance']
     avg = sumi/len(arr)
     return avg
-print_data(peoples)
-avg = getAverageBalance(peoples)
-print(avg)
+def getPeopleByDepartmentId(data,department_id):
+    searched_data=[]
+    for i in data:
+        if i['department_id']==department_id:
+            searched_data.append(i)
+    return searched_data
+        
+# print_data(peoples)
+# avg = getAverageBalance(peoples)
+newpeople = getPeopleByDepartmentId(data=peoples,department_id=1)
+print_data(newpeople)
