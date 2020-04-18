@@ -30,3 +30,8 @@ def save_data_to_json(json_file,data):
     with open(json_file,"w") as jsonFile:
         json_arr= json.dumps(data,indent=4)
         jsonFile.write(json_arr)
+
+def add_object(json_file,object_example):
+    data = get_data_from_json(json_file)
+    data.append(object_example)
+    save_data_to_json(json_file,data)
