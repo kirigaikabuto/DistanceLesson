@@ -25,3 +25,8 @@ def get_data_from_json(json_file):
         data = jsonFile.read()
         arr = json.loads(data)
     return arr
+
+def save_data_to_json(json_file,data):
+    with open(json_file,"w") as jsonFile:
+        json_arr= json.dumps(data,indent=4)
+        jsonFile.write(json_arr)
