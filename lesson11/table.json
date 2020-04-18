@@ -1389,22 +1389,5 @@
         "COMMISSION_PCT": " - ",
         "MANAGER_ID": "205",
         "DEPARTMENT_ID": 110
-    },
-    {
-        "EMPLOYEE_ID": 10,
-        "FIRST_NAME": "Yerassyl",
-        "LAST_NAME": "Gietz",
-        "EMAIL": "WGIETZ",
-        "PHONE_NUMBER": "515.123.8181",
-        "HIRE_DATE": "07-JUN-02",
-        "JOB_ID": "AC_ACCOUNT",
-        "SALARY": 8300,
-        "COMMISSION_PCT": " - ",
-        "MANAGER_ID": "205",
-        "DEPARTMENT_ID": 110
-    },
-    {
-        "EMPLOYEE_ID": 9,
-        "FIRST_NAME": "adsadsada"
     }
 ]
