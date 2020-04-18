@@ -9,3 +9,10 @@ def save_csv_to_json(csv_file,json_file):
     with open(json_file,"w") as jsonFile:
         json_arr= json.dumps(arr,indent=4)
         jsonFile.write(json_arr)
+
+def get_data_from_json(json_file):
+    arr=[]
+    with open(json_file,"r") as jsonFile:
+        data = jsonFile.read()
+        arr = json.loads(data)
+    return arr
