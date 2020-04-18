@@ -247,19 +247,6 @@
         "DEPARTMENT_ID": 30
     },
     {
-        "EMPLOYEE_ID": 119,
-        "FIRST_NAME": "Karen",
-        "LAST_NAME": "Colmenares",
-        "EMAIL": "KCOLMENA",
-        "PHONE_NUMBER": "515.127.4566",
-        "HIRE_DATE": "10-AUG-07",
-        "JOB_ID": "PU_CLERK",
-        "SALARY": 2500,
-        "COMMISSION_PCT": " - ",
-        "MANAGER_ID": "114",
-        "DEPARTMENT_ID": 30
-    },
-    {
         "EMPLOYEE_ID": 120,
         "FIRST_NAME": "Matthew",
         "LAST_NAME": "Weiss",
@@ -572,19 +559,6 @@
         "DEPARTMENT_ID": 50
     },
     {
-        "EMPLOYEE_ID": 144,
-        "FIRST_NAME": "Peter",
-        "LAST_NAME": "Vargas",
-        "EMAIL": "PVARGAS",
-        "PHONE_NUMBER": "650.121.2004",
-        "HIRE_DATE": "09-JUL-06",
-        "JOB_ID": "ST_CLERK",
-        "SALARY": 2500,
-        "COMMISSION_PCT": " - ",
-        "MANAGER_ID": "124",
-        "DEPARTMENT_ID": 50
-    },
-    {
         "EMPLOYEE_ID": 145,
         "FIRST_NAME": "John",
         "LAST_NAME": "Russell",
@@ -594,32 +568,6 @@
         "JOB_ID": "SA_MAN",
         "SALARY": 14000,
         "COMMISSION_PCT": ".4",
-        "MANAGER_ID": "100",
-        "DEPARTMENT_ID": 80
-    },
-    {
-        "EMPLOYEE_ID": 146,
-        "FIRST_NAME": "Karen",
-        "LAST_NAME": "Partners",
-        "EMAIL": "KPARTNER",
-        "PHONE_NUMBER": "011.44.1344.467268",
-        "HIRE_DATE": "05-JAN-05",
-        "JOB_ID": "SA_MAN",
-        "SALARY": 13500,
-        "COMMISSION_PCT": ".3",
-        "MANAGER_ID": "100",
-        "DEPARTMENT_ID": 80
-    },
-    {
-        "EMPLOYEE_ID": 147,
-        "FIRST_NAME": "Alberto",
-        "LAST_NAME": "Errazuriz",
-        "EMAIL": "AERRAZUR",
-        "PHONE_NUMBER": "011.44.1344.429278",
-        "HIRE_DATE": "10-MAR-05",
-        "JOB_ID": "SA_MAN",
-        "SALARY": 12000,
-        "COMMISSION_PCT": ".3",
         "MANAGER_ID": "100",
         "DEPARTMENT_ID": 80
     },
@@ -663,19 +611,6 @@
         "DEPARTMENT_ID": 80
     },
     {
-        "EMPLOYEE_ID": 151,
-        "FIRST_NAME": "David",
-        "LAST_NAME": "Bernstein",
-        "EMAIL": "DBERNSTE",
-        "PHONE_NUMBER": "011.44.1344.345268",
-        "HIRE_DATE": "24-MAR-05",
-        "JOB_ID": "SA_REP",
-        "SALARY": 9500,
-        "COMMISSION_PCT": ".25",
-        "MANAGER_ID": "145",
-        "DEPARTMENT_ID": 80
-    },
-    {
         "EMPLOYEE_ID": 152,
         "FIRST_NAME": "Peter",
         "LAST_NAME": "Hall",
@@ -697,19 +632,6 @@
         "HIRE_DATE": "30-MAR-06",
         "JOB_ID": "SA_REP",
         "SALARY": 8000,
-        "COMMISSION_PCT": ".2",
-        "MANAGER_ID": "145",
-        "DEPARTMENT_ID": 80
-    },
-    {
-        "EMPLOYEE_ID": 154,
-        "FIRST_NAME": "Nanette",
-        "LAST_NAME": "Cambrault",
-        "EMAIL": "NCAMBRAU",
-        "PHONE_NUMBER": "011.44.1344.987668",
-        "HIRE_DATE": "09-DEC-06",
-        "JOB_ID": "SA_REP",
-        "SALARY": 7500,
         "COMMISSION_PCT": ".2",
         "MANAGER_ID": "145",
         "DEPARTMENT_ID": 80
