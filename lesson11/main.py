@@ -35,3 +35,6 @@ def add_object(json_file,object_example):
     data = get_data_from_json(json_file)
     data.append(object_example)
     save_data_to_json(json_file,data)
+
+def delete_object():
+    pass
